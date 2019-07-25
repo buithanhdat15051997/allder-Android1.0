@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HistoryAccActivity"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/layouttoolbar"
+        android:src="@drawable/ic_logotext"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarhistory"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgtoolbarhome"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/concert_one"
+        android:layout_centerHorizontal="true"
+        android:text="History Allder "
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp" />
+    <fragment
+        android:layout_below="@+id/layouttoolbar"
+        android:id="@+id/fragment"
+        android:name="company.com.allder1.fragment.NotificationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

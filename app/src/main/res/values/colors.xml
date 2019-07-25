@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e263b</color>
+    <color name="colorPrimaryDark">#1e263b</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="light_black">#303030</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bgtoobar">#d6efd2</color>
+    <color name="bgwelcome">#000000</color>
+    <color name="bg">#36425a</color>
+    <color name="bgtablayout">#d6efd2</color>
+    <color name="textcolor">#00ffef</color>
+
+
+
+    <color name="color1">#8E24AA</color>
+    <color name="color2">#FFE63232</color>
+    <color name="color3">#3949AB</color>
+    <color name="color4">#FFFB8C00</color>
+    <color name="color5">#FFF4511E</color>
+    <color name="color6">#FF43A047</color>
+    <color name="color7">#FF00ACC1</color>
+</resources>

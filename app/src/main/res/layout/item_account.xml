@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/light_black"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/_10sdp">
+
+    <Button
+        android:id="@+id/btn_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext_register"
+        android:drawableTint="#000000"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sniglet"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:text="Login"
+        android:textAlignment="textStart" />
+</RelativeLayout>
